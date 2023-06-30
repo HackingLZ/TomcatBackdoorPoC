@@ -10,5 +10,6 @@ Backdoors tomcat-websocket.jar on host
    
 Backdoored version left in/tmp/stomped-tomcat-websocket.jar for testing however modify relocateAndStomp to overwrite lib/tomcat-websocket.jar
   
- C.class will be triggered on Tomcat reload/restart
+C.class will be triggered on Tomcat reload/restart
 
+Tested on tomcat-8.5.90
