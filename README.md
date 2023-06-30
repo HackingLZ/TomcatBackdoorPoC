@@ -3,9 +3,9 @@ Dirty PoC based on this https://www.crowdstrike.com/blog/falcon-complete-thwarts
 
 Backdoors tomcat-websocket.jar on host
 
- - Compile C.class and WsSci.class 
+ - Compile C.java and WsSci.java into classes  
  - Move them into a Jar  
- - Modify sourceURL with the path of hosted jar 
+ - Modify sourceURL with the path of hosted Jar 
  - Upload backdoor.jsp Trigger backdoor.jsp 
    
 Backdoored version left in/tmp/stomped-tomcat-websocket.jar for testing however modify relocateAndStomp to overwrite lib/tomcat-websocket.jar
